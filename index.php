@@ -26,7 +26,7 @@ if($message['type']=='sticker')
 							'messages' => array(
 								array(
 										'type' => 'text',									
-										'text' => 'Terima Kasih Stikernya Kakak kece. :D'										
+										'text' => 'Terima Kasih Stikernya Kakak kece 😆.'										
 									
 									)
 							)
@@ -50,7 +50,7 @@ if($url['result'] == 404)
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => 'Mohon Gunakan Bahasa Indonesia Yang Benar :D.'
+										'text' => 'Mohon Gunakan Bahasa Indonesia Yang Benar 😊.'
 									)
 							)
 						);
@@ -67,7 +67,7 @@ if($url['result'] != 100)
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => 'Maaf '.$profil->displayName.' Bot VNC Lagi pusing, banyak pikiran kak.:('
+										'text' => 'Maaf '.$profil->displayName.' Bot VNC Lagi pusing banyak pikiran kak 😢.'
 									)
 							)
 						);
