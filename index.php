@@ -26,7 +26,7 @@ if($message['type']=='sticker')
 							'messages' => array(
 								array(
 										'type' => 'text',									
-										'text' => 'Terima Kasih Stikernya kakak.'										
+										'text' => 'Terima Kasih Stikernya kakak '.$profil->displayName.'.'										
 									
 									)
 							)
@@ -50,7 +50,7 @@ if($url['result'] == 404)
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => 'Mohon Gunakan Bahasa Indonesia Yang Benar :D.'
+										'text' => 'Ngomong apaan si loh'.$profil->displayName.' AUTIS Yah?.'
 									)
 							)
 						);
