@@ -50,7 +50,7 @@ if($url['result'] == 404)
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => 'Ngomong apaan si loh'.$profil->displayName.' AUTIS Yah?.'
+										'text' => 'Ngomong apaan si loh '.$profil->displayName.' AUTIS Yah?.'
 									)
 							)
 						);
